@@ -1,0 +1,22 @@
+2025-05-25 14:21:05,245 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:25:17,830 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:36:47,557 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:39:53,509 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:41:20,169 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:52:15,396 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:57:07,144 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 14:57:12,911 INFO TCPServer: Connected: ('127.0.0.1', 54036)
+2025-05-25 14:57:21,898 INFO TCPServer: Query: hello
+2025-05-25 14:59:48,637 INFO TCPServer: Query: 3;0;1;28;0;7;5;0;
+2025-05-25 15:00:21,541 INFO TCPServer: Query: 1;0;1;28;0;22;4;0;
+2025-05-25 15:00:32,163 INFO TCPServer: Query: stop
+2025-05-25 15:00:52,278 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 15:01:01,369 INFO TCPServer: Connected: ('127.0.0.1', 54051)
+2025-05-25 15:02:01,909 INFO TCPServer: Query: 3;0
+2025-05-25 15:02:14,869 INFO TCPServer: Query: 3;0;1;28;0;7;5;0;
+2025-05-25 15:07:15,848 INFO TCPServer: Connected: ('127.0.0.1', 54064)
+2025-05-25 15:07:33,379 INFO TCPServer: Query: stop
+2025-05-25 15:11:02,063 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 15:12:00,258 INFO TCPServer: Connected: ('127.0.0.1', 54081)
+2025-05-25 15:12:19,312 INFO TCPServer: Query from ('127.0.0.1', 54081): hello
+2025-05-25 15:12:43,621 INFO TCPServer: Query from ('127.0.0.1', 54081): 3;0;1;28;0;7;5;0;

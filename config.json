@@ -1,0 +1,11 @@
+{
+  "HOST": "127.0.0.1",
+  "PORT": 9001,
+  "SSL_ENABLED": true,
+  "CERTFILE": "cert/server.pem",
+  "KEYFILE": "cert/key.pem",
+  "TEXT_FILE_PATH": "data/200k.txt",
+  "REREAD_ON_QUERY": false,
+  "MAX_WORKERS": 10,
+  "LOG_FILE": "logs/server.log"
+}
