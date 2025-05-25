@@ -20,3 +20,11 @@
 2025-05-25 15:12:00,258 INFO TCPServer: Connected: ('127.0.0.1', 54081)
 2025-05-25 15:12:19,312 INFO TCPServer: Query from ('127.0.0.1', 54081): hello
 2025-05-25 15:12:43,621 INFO TCPServer: Query from ('127.0.0.1', 54081): 3;0;1;28;0;7;5;0;
+2025-05-25 23:27:24,295 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 23:34:50,215 INFO TCPServer: Server listening on 127.0.0.1:9001
+2025-05-25 23:35:11,453 INFO TCPServer: Connected: ('127.0.0.1', 55717)
+2025-05-25 23:35:18,508 INFO TCPServer: Query from ('127.0.0.1', 55717): hello
+2025-05-25 23:35:56,607 INFO TCPServer: Query from ('127.0.0.1', 55717): 3;0;1;28;0;7;5;0;
+2025-05-25 23:36:24,215 INFO TCPServer: Query from ('127.0.0.1', 55717): 24;0;1;28;0;7;5;0;
+2025-05-25 23:39:34,782 INFO TCPServer: Query from ('127.0.0.1', 55717): exit
+2025-05-25 23:39:34,782 INFO TCPServer: Received 'exit' from ('127.0.0.1', 55717). Shutting down server.

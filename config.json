@@ -4,7 +4,7 @@
   "SSL_ENABLED": true,
   "CERTFILE": "cert/server.pem",
   "KEYFILE": "cert/key.pem",
-  "TEXT_FILE_PATH": "data/200k.txt",
+  "TEXT_FILE_PATH": "https://tests.quantitative-analysis.com/200k.txt",
   "REREAD_ON_QUERY": false,
   "MAX_WORKERS": 10,
   "LOG_FILE": "logs/server.log"

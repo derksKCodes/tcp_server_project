@@ -2,7 +2,7 @@ from cryptography import x509
 from cryptography.x509.oid import NameOID
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, UTC
 import os
 from pathlib import Path
 
@@ -38,8 +38,8 @@ cert = (
     .issuer_name(subject)
     .public_key(key.public_key())
     .serial_number(x509.random_serial_number())
-    .not_valid_before(datetime.utcnow())
-    .not_valid_after(datetime.utcnow() + timedelta(days=365))
+    .not_valid_before(datetime.now(UTC))
+    .not_valid_after(datetime.now(UTC) + timedelta(days=365))
     .sign(key, hashes.SHA256())
 )
 
@@ -55,4 +55,4 @@ with open(key_folder , "wb") as f:
 with open(cert_folder, "wb") as f:
     f.write(cert.public_bytes(serialization.Encoding.PEM))
 
-print("✅ SSL Certificate and key have been successfully generated in the 'cert/' folder.")
+print(f'SSL Certificate and key have been successfully generated in the {path_folder} folder.')
