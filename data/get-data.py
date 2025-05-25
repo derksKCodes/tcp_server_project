@@ -32,11 +32,11 @@ else:
 # response = requests.get(url)
 # if response.status_code == 200:
 #     data = response.text
-#     print("✅ Data read successfully from the URL.")
+#     print("Data read successfully from the URL.")
     
 #     # Process each line (if needed)
 #     lines = data.strip().splitlines()
 #     for line in lines[:5]:  # Example: print the first 5 lines
 #         print(line)
 # else:
-#     print(f"❌ Failed to fetch data. Status code: {response.status_code}")
+#     print(f"Failed to fetch data. Status code: {response.status_code}")
