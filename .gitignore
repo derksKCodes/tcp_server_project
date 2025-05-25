@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SSL certificates (optional, if regenerated dynamically)
+cert/*.pem
+
+# Logs
+logs/
+*.log
+
+# Virtual environments
+venv/
+env/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Python environment files
+*.env
+
+# Test outputs or temp data
+*.tmp
+*.bak
+*.swp
+data/200k.txt
